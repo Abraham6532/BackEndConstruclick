@@ -77,13 +77,13 @@ VALUES
 -- Tabla `Proveedores`
 -- -----------------------------------------------------
 
-INSERT INTO Pedido (idPedido, Fecha, Total, Cantidad) 
+INSERT INTO Pedido (idPedido, Tipo_Proveedor) 
 VALUES 
-(1, '2024-08-20', '450.50', 2),
-(2, '2024-08-21', '1250.00', 1),
-(3, '2024-08-22', '780.00', 3),
-(4, '2024-08-23', '320.75', 4),
-(5, '2024-08-24', '990.99', 5);
+(1, "Servicios"),
+(2, "Productos"),
+(3, "Servicios"),
+(4, "Servicios"),
+(5, "Productos");
 
 -- -----------------------------------------------------
 -- Tabla `Vendedores`
