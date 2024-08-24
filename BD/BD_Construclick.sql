@@ -70,7 +70,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`Productos` (
   `idProductos` INT NOT NULL AUTO_INCREMENT,
   `Nombre_Producto` VARCHAR(45) NOT NULL,
-  `Descripción` VARCHAR(45) NOT NULL,
+  `Descripción` VARCHAR(150) NOT NULL,
   `Precio` VARCHAR(45) NULL,
   `Pedido_idPedido` INT NOT NULL,
   `Pedido_Cliente_idCliente` INT NOT NULL,
@@ -107,7 +107,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`Servicios` (
   `idServicios` INT NOT NULL AUTO_INCREMENT,
   `Nombre servicios` VARCHAR(45) NOT NULL,
-  `Descripción` VARCHAR(45) NOT NULL,
+  `Descripción` VARCHAR(150) NOT NULL,
   `Pedido_idPedido` INT NOT NULL,
   `Pedido_Cliente_idCliente` INT NOT NULL,
   `Proveedores_idProveedores` INT NOT NULL,
